@@ -1,7 +1,7 @@
 # To run the app :
 ```
-- npm start
-- expo start
+- npx expo start
+
 ```
 # Organisation :
 
