@@ -11,14 +11,17 @@
   "dependencies": {
     "@expo/metro-runtime": "~3.1.1",
     "expo": "~50.0.4",
+    "expo-av": "~13.10.4",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.2",
+    "react-native-draggable": "^3.3.0",
+    "react-native-gesture-handler": "^2.15.0",
+    "react-native-paper": "^5.12.3",
     "react-native-sound": "^0.11.2",
     "react-native-sound-player": "^0.13.2",
-    "react-native-web": "~0.19.6",
-    "expo-av": "~13.10.4"
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
