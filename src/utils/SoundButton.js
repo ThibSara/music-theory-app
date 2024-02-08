@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { View, StyleSheet, Button } from 'react-native';
 import { Audio } from 'expo-av';
 
@@ -16,20 +16,25 @@ const soundFileMap = {
 
 
 
-export default function SoundButton({soundKey}) {
+export default function SoundButton({soundKey, isInSpecialZone}) {
   const [sound, setSound] = useState();
+  const isInSpecialZoneRef = useRef(isInSpecialZone);
+
+  useEffect(() => {
+    // Update ref when isInSpecialZone prop changes
+    isInSpecialZoneRef.current = isInSpecialZone;
+  }, [isInSpecialZone]);
 
 
-  async function playSound() {
-    //console.log('Loading Sound');
-    
-    const { sound } = await Audio.Sound.createAsync( soundFileMap[soundKey]
-    )
-    setSound(sound);
-
-    //console.log('Playing Sound');
-    await sound.playAsync();
-  }
+  const playSound = async () => {
+    // Check isInSpecialZone using ref for the latest value
+    if (isInSpecialZoneRef.current) {
+      console.log('Playing Sound');
+      const { sound } = await Audio.Sound.createAsync(soundFileMap[soundKey]);
+      setSound(sound);
+      await sound.playAsync();
+    }
+  };
 
   useEffect(() => {
     return sound
