@@ -1,29 +1,21 @@
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
-import  SoundButton  from './src/utils/SoundButton';
+import React, { useRef } from 'react';
+import {SafeAreaView } from 'react-native';
+import SoundButton from './src/utils/SoundButton';
+import LogScreen from './src/screens/LogScreen';
+import globalStyles from './src/styles/globalStyles';
+import ThemeContext from './src/styles/ThemeContext';
+
 
 
 export default function App() {
-  
+
   return (
-    <View style={styles.container}>
-      <Text> Hello there !! </Text>
-      <SoundButton soundKey="do"/>
-      <SoundButton soundKey="re"/>
-      <SoundButton soundKey="mi"/>
-      <SoundButton soundKey="fa"/>
-      <SoundButton soundKey="sol"/>
-      <SoundButton soundKey="la"/>
-      <SoundButton soundKey="si"/>
-      <SoundButton soundKey="do_octave"/>
-    </View>
+    <ThemeContext.Provider value={globalStyles}>
+    <SafeAreaView style={globalStyles.container}>
+      <LogScreen/>
+      </SafeAreaView>
+   </ThemeContext.Provider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+
