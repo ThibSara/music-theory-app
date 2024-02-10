@@ -36,3 +36,12 @@ my-music-app/
 |-- package.json      # Node.js dependencies and scripts
 |-- README.md         # Project documentation
 ```
+
+# login :
+
+U can create an account or use :
+
+    - username : Doremi
+    - password : Doremi
+
+Usernames and Passwords are stored in the AsyncStorage API.
