@@ -5,7 +5,7 @@ import { useContext } from 'react';
 
 
 export default function ButtonComponent(props) {
-  const { onPress, title = 'Se connecter' } = props;
+  const { onPress, title } = props;
 const globalStyles = React.useContext(ThemeContext);
 
   return (
