@@ -1,6 +1,9 @@
 # To run the app :
 ```
-- npm start
+- git clone https://github.com/ThibSara/music-theory-app.git
+- cd music-theory-app
+- npm install
+- npm start 
 - expo start
 ```
 # Organisation :
@@ -16,7 +19,7 @@ my-music-app/
 |   |-- components/   # Reusable components
 |   |   |-- Button/
 |   |   |-- ...
-|   |-- screens/      # Screens of the app
+|   |-- pages/      # Screens of the app
 |   |   |-- Home/
 |   |   |-- First_Course/
 |   |   |-- ...
@@ -36,3 +39,12 @@ my-music-app/
 |-- package.json      # Node.js dependencies and scripts
 |-- README.md         # Project documentation
 ```
+
+
+# Firebase database
+
+- Create local sqlite database on device
+- Prepopulate with default text for content (in case of offline first-use)
+- Connect app content to the local databasee
+- If online, sync local database with firebase database
+
