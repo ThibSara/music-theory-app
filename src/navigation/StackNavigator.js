@@ -9,8 +9,9 @@ const Stack = createStackNavigator();
 const StackNavigator = () => {
   return (
     <Stack.Navigator>
+            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }} />
+
       <Stack.Screen name="LogScreen" component={LogScreen} options={{ headerShown: false }} />
-      <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ headerShown: false }} />
       <Stack.Screen name="CreateAccountScreen" component={CreateAccountScreen} options={{ headerShown: false }} />
       
       {/* Add all the others screen here */}
