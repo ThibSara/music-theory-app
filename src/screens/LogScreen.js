@@ -48,7 +48,7 @@ export default function LogScreen() {
 
     return(
         <View style={globalStyles.container}>
-        <View style={{ flex: 1, alignItems:'center', marginTop:'15%', gap:'15%'}}>
+        <View style={{ flex: 1, alignItems:'center', marginTop:'15%'}}>
         <SoundLogo />
         <View style ={{alignItems:'center',marginTop:'10%'}}>
         <Text style={[globalStyles.text, {color:'grey' }]}> Welcome on</Text>

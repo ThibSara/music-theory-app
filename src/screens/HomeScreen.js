@@ -12,7 +12,7 @@ export default function HomeScreen() {
     return (
         <ScrollView contentContainerStyle={styles.scrollViewContent}>
             <View style={globalStyles.container}>
-            <View style={{ flex: 1, alignItems: 'center', marginTop: '15%', gap: '15%' }}>
+            <View style={{ flex: 1, alignItems: 'center', marginTop: '15%' }}>
 
                 <SoundLogo />
                 <Text style = {globalStyles.text_semibold}>Découvre la musique en t’amusant ! </Text>

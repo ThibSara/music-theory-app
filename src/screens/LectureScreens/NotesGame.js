@@ -15,7 +15,7 @@ export default function NotesGame() {
 
     return (
         <View style={globalStyles.container}>
-            <View style={{ flex: 1, alignItems: 'center', marginTop: '20%', gap: '40%' }}>
+            <View style={{ flex: 1, alignItems: 'center', marginTop: '20%' }}>
 
                 <Text style={globalStyles.title}>Jeu sur les notes</Text>
                 <Text style={globalStyles.text_semibold}>essaye de recréer le même rythme !</Text>
