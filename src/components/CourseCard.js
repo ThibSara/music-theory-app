@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, Dimensions } from "react-native";
 import ThemeContext from '../styles/ThemeContext';
 import { Card } from 'react-native-paper';
+import { LinearGradient } from 'expo-linear-gradient';
 
 import easy from '../../assets/images/course_difficulty/easy.png';
 import medium from '../../assets/images/course_difficulty/medium.png';
@@ -56,7 +57,14 @@ export default function CourseCard(props) {
                 <Text style={[globalStyles.text, { color: 'grey', marginTop:20 }]}>{description}</Text>
                 <View style={styles.courseType}>
                     <View style={styles.courseWrapper}>
-                        <Text style={globalStyles.text}>{courseType}</Text>
+                    <LinearGradient
+                    colors={['#F73893', '#FFB906']}
+                    start={{ x: 0, y: 0 }}
+                        end={{ x: 1, y: 0 }}
+                        style={styles.courseWrapper}
+                        >
+                        <Text style={[globalStyles.text, {color:'white'}]}>{courseType}</Text>
+                        </LinearGradient>
                     </View>
                     <View style={styles.difficultyWrapper}>
                         <Text style={globalStyles.text}>Difficulté</Text>
@@ -85,7 +93,7 @@ const styles = StyleSheet.create({
         marginTop: 10,
     },
     courseWrapper: {
-        backgroundColor: 'lightgrey',
+        backgroundColor: 'transparent',
         borderRadius: 15,
         paddingHorizontal: 10,
         alignItems: 'center',

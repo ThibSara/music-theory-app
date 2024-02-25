@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, Alert } from 'react-native';
+import { View, Text, Alert,Pressable } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -19,6 +19,11 @@ export default function CreateAccountScreen() {
     const [password, setPassword] = useState('');
     const [usernameError, setUsernameError] = useState('');
     const [passwordError, setPasswordError] = useState('');
+
+    const navigateToLogScreen = () => {
+        navigation.navigate('LogScreen');
+    };
+
 
     const handleUsernameChange = (text) => {
         setUsername(text);
@@ -93,6 +98,9 @@ export default function CreateAccountScreen() {
                 <View style={{ marginTop: '10%' }}>
                     <ButtonComponent title="Créer mon compte" onPress={saveCredentialsToFile} />
                 </View>
+                <Pressable onPress={navigateToLogScreen}>
+                    <Text style={[globalStyles.text, { color: 'grey', marginTop:'5%',fontSize:15 }]}>already an account ? Sign up Here </Text>
+                </Pressable>
             </View>
         </View>
     );

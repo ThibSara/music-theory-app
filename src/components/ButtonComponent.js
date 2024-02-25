@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text, StyleSheet, Pressable } from 'react-native';
 import ThemeContext from '../styles/ThemeContext';
-import { useContext } from 'react';
+import { useContext } from 'react'
+import { LinearGradient } from 'expo-linear-gradient';
 
 
 export default function ButtonComponent(props) {
@@ -9,9 +10,17 @@ export default function ButtonComponent(props) {
 const globalStyles = React.useContext(ThemeContext);
 
   return (
-    <Pressable style={styles.button} onPress={onPress}>
+    <LinearGradient
+                    colors={['#F73893', '#FFB906']}
+                    start={{ x: 0, y: 0 }}
+                        end={{ x: 1, y: 0 }}
+                        style={styles.button}
+                        >
+    <Pressable onPress={onPress}>
       <Text style={[globalStyles.text_semibold,{color : 'white'}]}>{title}</Text>
     </Pressable>
+    </LinearGradient>
+
   );
 }
 
@@ -22,7 +31,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 8,
-    backgroundColor: 'black',
+    backgroundColor: 'transparent',
   },
 
 });
