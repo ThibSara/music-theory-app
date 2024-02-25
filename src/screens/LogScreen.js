@@ -48,21 +48,23 @@ export default function LogScreen() {
 
     return(
         <View style={globalStyles.container}>
-        <View style={{ flex: 1, alignItems:'center', marginTop:'15%'}}>
+        <View style={{ flex: 1, alignItems:'center', marginTop:'20%'}}>
         <SoundLogo />
         <View style ={{alignItems:'center',marginTop:'10%'}}>
         <Text style={[globalStyles.text, {color:'grey' }]}> Welcome on</Text>
-        <Text style={[globalStyles.title, {marginBottom:'10%' }]}> Doremi Lingo !</Text>
+        <Text style={[globalStyles.title, {marginBottom:'10%' }]}>Doremi Lingo !</Text>
         </View>
 
         <TextInputComponent label="Username" value={username} onChangeText={setUsername} />
-                <TextInputComponent label="Password" isSecure={true} value={password} onChangeText={setPassword} />
-                <View style={{ marginTop: '10%' }}>
-                    <ButtonComponent title="Log In" onPress={handleLogin} />
+        <View style={{ marginTop: '3%' }}>
+                <TextInputComponent label="Password" isSecure={true} value={password} onChangeText={setPassword}/>
                 </View>
+                <View style={{ marginTop: '10%' }}>
+                    <ButtonComponent title="Log In " onPress={handleLogin} />
                 <Pressable onPress={navigateToCreateAccountScreen}>
-                    <Text style={[globalStyles.text, { color: 'grey' }]}>Create an account</Text>
+                    <Text style={[globalStyles.text, { color: 'grey', marginTop:'10%' }]}>Create an account </Text>
                 </Pressable>
+                </View>
             </View>
         </View>
     )

@@ -71,7 +71,7 @@ export default function CourseCard(props) {
 const styles = StyleSheet.create({
     container: {
         width: windowWidth * 0.8, 
-        paddingHorizontal: 20,
+        paddingHorizontal: 29,
         paddingVertical: 20,
         borderRadius: 15,
         shadowColor: 'black',

@@ -87,7 +87,9 @@ export default function CreateAccountScreen() {
                     <Text style={[globalStyles.title, { marginBottom: '10%' }]}> Doremi Lingo </Text>
                 </View>
                 <TextInputComponent label="Nom d'utilisateur" value={username} onChangeText={handleUsernameChange} error={usernameError} />
+                <View style={{ marginTop: '3%' }}>
                 <TextInputComponent label="Mot de passe" isSecure={true} value={password} onChangeText={handlePasswordChange} error={passwordError} />
+                </View>
                 <View style={{ marginTop: '10%' }}>
                     <ButtonComponent title="Créer mon compte" onPress={saveCredentialsToFile} />
                 </View>

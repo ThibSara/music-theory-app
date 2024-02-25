@@ -15,7 +15,7 @@ export default function HomeScreen() {
             <View style={{ flex: 1, alignItems: 'center', marginTop: '15%' }}>
 
                 <SoundLogo />
-                <Text style = {globalStyles.text_semibold}>Découvre la musique en t’amusant ! </Text>
+                <Text style={[globalStyles.text_semibold, { marginVertical:'10%' }]}>Découvre la musique en t’amusant ! </Text>
                 <CourseCard
                     title="Découverte de la lecture de notes"
                     description="Apprend à lire les notes"
