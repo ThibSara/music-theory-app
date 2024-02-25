@@ -9,6 +9,8 @@ export default function HomeScreen() {
     const globalStyles = useContext(ThemeContext);
     const navigation = useNavigation();
 
+    
+
     return (
         <ScrollView contentContainerStyle={styles.scrollViewContent}>
             <View style={globalStyles.container}>
@@ -21,28 +23,28 @@ export default function HomeScreen() {
                     description="Apprend à lire les notes"
                     difficulty="easy"
                     courseType="cours"
-                    onPress={() => navigation.navigate('CourseScreen')}
+                    onPress={() => navigation.navigate('Course1')}
                 />
                 <CourseCard
                     title="Mini jeu sur notes"
                     description="Apprend à placer les notes"
                     difficulty="easy"
                     courseType="Mini jeu"
-                    onPress={() => navigation.navigate('CourseScreen')}
+                    onPress={() => navigation.navigate('NotesGame')}
                 />
                 <CourseCard
                     title="Cours sur les rythmes"
                     description="Apprend les différents types de rythme"
                     difficulty="medium"
                     courseType="cours"
-                    onPress={() => navigation.navigate('CourseScreen')}
+                    onPress={() => navigation.navigate('Course2')}
                 />
                 <CourseCard
                     title="Cours sur les rythmes"
                     description="Apprend à reproduire un rythme"
                     difficulty="hard"
                     courseType="Mini jeu"
-                    onPress={() => navigation.navigate('CourseScreen')}
+                    onPress={() => navigation.navigate('DragDrop')}
                 />
             </View>
             </View>
