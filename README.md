@@ -1,9 +1,17 @@
-# To run the app :
+# DoRéMi Lingo ! 
+
+## The concept
+
+## Figma design
+
+## Courses organisation
+
+## How to run the app 
 ```
 - npx expo start
 
 ```
-# Organisation :
+## Project Structure :
 
 ```
 my-music-app/
@@ -37,9 +45,9 @@ my-music-app/
 |-- README.md         # Project documentation
 ```
 
-# login :
+## Login information :
 
-U can create an account or use :
+You can create an account or use :
 
     - username : Doremi
     - password : Doremi
