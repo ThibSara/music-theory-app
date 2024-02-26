@@ -64,6 +64,34 @@ https://www.figma.com/file/ey7hkcauYj0NqeN2khOD6w/Projet-App-design?type=design&
 ### Chapitre 2 : La notation rythmique
 #### Unité 1 : Notation des durées
 
+| Numéro de leçon | Type de leçon | Contenu de la leçon |
+|:--------------:|:--------------:|:--------------:|
+| Leçon 1 | Lecture de rythme| Ajout d'autres figures de rythme (double croche) |
+| | | Mini jeu : associer les bonnes figures de notes avec les noms de rythmes |
+| Leçon 2 | Lecture de rythme | Figures de rythme composées de croches et doubles croches|
+| | | Croche deux doubles |
+| | | Deux doubles croche |
+| | | Syncopette|
+| | | Mini jeu : associer les bonnes figures de notes avec les noms de rythmes |
+| Leçon 3 | Lecture de rythme| Révision de tous les rythmes vus |
+| | | Mini jeu : associer les bonnes figures de notes avec les noms de rythmes |
+
+#### Unité 2 : Mesure et pulsation
+
+| Numéro de leçon | Type de leçon | Contenu de la leçon |
+|:--------------:|:--------------:|:--------------:|
+| Leçon 1 | Théorie de la musique| Qu'est ce qu'une mesure |
+| | | Qu'est ce qu'une pulsation|
+| | | Qu'est ce q'un chiffre de mesure|
+| | | Mini jeu : compléter des phrases|
+| Leçon 2 | Théorie de la musique | Explication du binaire|
+| | | Explication du ternaire|
+| | | Les chiffres de mesure associés |
+| | | Mini jeu : Dire si une mesure est ternaire ou binaire|
+| Leçon 3 | Lecture de note et rythme| Petit rappel sur les notes |
+| | | Mini jeu : Lire les notes et les rythmes, de plus en plus difficile |
+
+The other courses are in preparation !
 
 ## How to run the app 
 ```
