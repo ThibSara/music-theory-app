@@ -30,7 +30,7 @@ export default function HomeScreen() {
                     description="Apprend à placer les notes"
                     difficulty="easy"
                     courseType="Mini jeu"
-                    onPress={() => navigation.navigate('NotesGame')}
+                    onPress={() => navigation.navigate('NotesQuizz')}
                 />
                 <CourseCard
                     title="Cours sur les rythmes"
