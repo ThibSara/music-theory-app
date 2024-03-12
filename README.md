@@ -24,7 +24,24 @@ https://www.figma.com/file/ey7hkcauYj0NqeN2khOD6w/Projet-App-design?type=design&
 
 ## The pictures of our app 
 
-![picture of the app](/Readme_pictures/Chargement.jpeg "Loading")
+<table>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/Chargement.jpeg" alt="Loading" width="300"/></td>
+    <td align="center"><img src="/Readme_pictures/Création compte.jpeg" alt="Account creation" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/log.jpeg" alt="Login" width="300"/></td>
+    <td align="center"><img src="/Readme_pictures/Menu.jpeg" alt="Description de l'image 4" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/Complète la phrase.jpeg" alt="Sentense" width="300"/></td>
+    <td align="center"><img src="/Readme_pictures/Drag and drop.jpeg" alt="Drag and drop" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/Réussite quizz.jpeg" alt="Success" width="300"/></td>
+    <td></td>
+  </tr>
+</table>
 
 ## Courses organisation
 
