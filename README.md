@@ -22,6 +22,10 @@ Here's an overview of the key pages within our app:
 ### The link to our figma 
 https://www.figma.com/file/ey7hkcauYj0NqeN2khOD6w/Projet-App-design?type=design&node-id=41%3A2010&mode=design&t=OKALkSITcQM9PYL5-1
 
+## The pictures of our app 
+
+![picture of the app](/Readme_pictures/Chargement.jpeg "Loading")
+
 ## Courses organisation
 
 ### Chapitre 1 : Les bases du solfège
