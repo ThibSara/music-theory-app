@@ -19,8 +19,41 @@ Here's an overview of the key pages within our app:
 - The pages of the games
 - The presentation of the app
 
-### The link to our figma 
+### The link to our figma  
+This is the first design we made : 
 https://www.figma.com/file/ey7hkcauYj0NqeN2khOD6w/Projet-App-design?type=design&node-id=41%3A2010&mode=design&t=OKALkSITcQM9PYL5-1
+
+Then we decided to continue the project and to change the design to publish the app. This is the figma we created with a brand new design. We currently are working on it and maybe we will send you the final published app !
+https://www.figma.com/file/gVDamMq94vpZsAQcerfchj/main?type=design&node-id=0%3A1&mode=design&t=Thc8lZNv3aBHwTgK-1
+
+Here are some pictures of the next design : 
+
+![Landing page](/Readme_pictures/Landing.png)
+![Connection page](/Readme_pictures/Connection.png)
+![Home page and menus](/Readme_pictures/Home.png)
+![Courses](/Readme_pictures/Group%2088.png)
+![Exercices](/Readme_pictures/Exercices.png)
+
+## The pictures of our app 
+
+<table>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/Chargement.jpeg" alt="Loading" width="300"/></td>
+    <td align="center"><img src="/Readme_pictures/Création compte.jpeg" alt="Account creation" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/log.jpeg" alt="Login" width="300"/></td>
+    <td align="center"><img src="/Readme_pictures/Menu.jpeg" alt="Description de l'image 4" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/Complète la phrase.jpeg" alt="Sentense" width="300"/></td>
+    <td align="center"><img src="/Readme_pictures/Drag and drop.jpeg" alt="Drag and drop" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="/Readme_pictures/Réussite quizz.jpeg" alt="Success" width="300"/></td>
+    <td></td>
+  </tr>
+</table>
 
 ## Courses organisation
 
