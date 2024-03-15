@@ -19,7 +19,7 @@ Here's an overview of the key pages within our app:
 - The pages of the games
 - The presentation of the app
 
-### The link to our figma 
+### The link to our figma  
 This is the first design we made : 
 https://www.figma.com/file/ey7hkcauYj0NqeN2khOD6w/Projet-App-design?type=design&node-id=41%3A2010&mode=design&t=OKALkSITcQM9PYL5-1
 
