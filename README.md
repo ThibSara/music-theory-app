@@ -36,6 +36,10 @@ Here are some pictures of the next design :
 
 ## The pictures of our app 
 
+
+https://github.com/user-attachments/assets/3b156db1-0914-40fe-9e2f-3f76cb4acb30
+
+
 <table>
   <tr>
     <td align="center"><img src="/Readme_pictures/Chargement.jpeg" alt="Loading" width="300"/></td>
